@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.hrm.scripts.TestHideOptions"/>
+      <class name="com.hrm.scripts.Test1"/>
+      <class name="com.hrm.scripts.TestSearchButton"/>
+      <class name="com.hrm.scripts.TestIncludeListBox"/>
+      <class name="com.hrm.scripts.LoginLogoutTest"/>
+      <class name="com.hrm.scripts.TestUserRoleListBox"/>
+      <class name="com.hrm.scripts.TestLoginButton"/>
+      <class name="com.hrm.scripts.TestAddDeleteEmployee"/>
+      <class name="com.hrm.scripts.TestAddJob"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
